@@ -1,0 +1,23 @@
+DETAILS OF SOLUTION
+a. how	you	tested	your	solution
+As I did not have much time after completing the implementation, the only testing I was able to do was to verify my solution with the example cases provided
+
+b. any	interesting	coding,	design,	or	algorithmic	choices	you’d	like	to	point	out
+Since in this problem, unlike a real firewall the rules did not have to be enforced in order,
+I was able to implement a more optimized solution than having to iterate through all the rules. 
+I used an array list as my primary data structure, so there was no iteration required for checking the direction, protocol and port.
+The only iteration required was to go over the list of possible IPs for a given direction, protocol, and port.
+The tradeoff here was the space, as I had to have a slot in the array for all possible port numbers for each case, of which there were 4.
+However, the space used, while large, is still constant, and will remain the same regardless of the number of rules.
+Therefore, I decided to make this choice as for a larger number of rules, my opinion was that the time aspect of it would be a lot more important.
+
+c. any	refinements	or	optimizations	that	you	would’ve	implemented	if	you	had	
+more	time
+There is quite a bit of repeated code, and it is not very clean. I would very much have liked to clean up the code a bit, however, since I 
+used up the entire 90 mins on crafting and testing the solution, I was not able to do this.
+
+TEAM CHOICE
+
+I am quite interested in the work that the policy team does. I think analyzing existing rules, to try and make policies more efficient and succint
+is very crucial and interesting work. I am also interested in the performance aspect of it, and making sure that the rules are implemented in a manner
+that is both effective as well as time efficient.
