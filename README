@@ -15,6 +15,7 @@ c. any	refinements	or	optimizations	that	you	would’ve	implemented	if	you	had
 more	time
 There is quite a bit of repeated code, and it is not very clean. I would very much have liked to clean up the code a bit, however, since I 
 used up the entire 90 mins on crafting and testing the solution, I was not able to do this.
+I would also have liked to conduct more testing, such as both unit testing, and some blackbox testing with unusual or edge data. 
 
 TEAM CHOICE
 
